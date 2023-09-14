@@ -5,7 +5,9 @@
 
 Integrantes:
 
+
+---------------------
 * García, Sebastían
 * Manca, Gabriela
 * Sosa, Federico
-  
+--------------------- 
