@@ -19,6 +19,7 @@
 :muscle: Sosa Federico<br>
 <br>
 
+
 ## Responsabilidades del Scrum Master 
 <br>
 
@@ -31,3 +32,16 @@
 :lock_with_ink_pen: Controlar los issues queden cerrados y en FINISHED<br>
 :lock_with_ink_pen: Cerrar el proyecto semanal y el milestone<br>
 :gift_heart: Felicitar a los integrantes del equipo por sus logros<br>
+
+
+## 🗓️ Organización por Sprint 4to Semestre
+<br>
+
+| **Sprint** | **Check**  |  **Scrum Asignado** 👨‍💻 |
+| ------------- | ------- | :-------------:|
+| Semana 1 | <ul><li>- [x] </li> |*Sebastián García* |
+| Semana 2 | <ul><li>- [x] </li> |*Federico Sosa* |
+| Semana 3 | <ul><li>- [ ] </li>|*Gabriela Manca* |
+| Semana 4 | <ul><li>- [ ] </li>|*Sebastián García* |
+| Semana 5 | <ul><li>- [ ] </li> |*Federico Sosa* |
+| Semana 6 | <ul><li>- [ ] </li> |*Gabriela Manca* |
