@@ -13,10 +13,10 @@
 ---------------------
 
 ## Integrantes
-
-:muscle: García Sebastían
-:muscle: Manca Gabriela
-:muscle: Sosa Federico
+<br>
+:muscle: García Sebastían<br>
+:muscle: Manca Gabriela<br>
+:muscle: Sosa Federico<br>
 --------------------- 
 
 ## Responsabilidades del Scrum Master 
