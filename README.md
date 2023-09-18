@@ -40,7 +40,7 @@
 | **Sprint** | **Check**  |  **Scrum Asignado** 👨‍💻 |
 | ------------- | ------- | :-------------:|
 | Semana 1 | :heavy_check_mark:|*Sebastián García* |
-| Semana 2 | <ul><li>- [x] </li> |*Federico Sosa* |
+| Semana 2 | :heavy_check_mark:|*Federico Sosa* |
 | Semana 3 | <ul><li>- [ ] </li>|*Gabriela Manca* |
 | Semana 4 | <ul><li>- [ ] </li>|*Sebastián García* |
 | Semana 5 | <ul><li>- [ ] </li> |*Federico Sosa* |
