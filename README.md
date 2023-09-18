@@ -4,7 +4,7 @@
 
 <br>
 
-<p align = "center">Lenguajes utilizados: </p>
+<p align = "center">Lenguajes utilizados </p>
 
 <br>
 
