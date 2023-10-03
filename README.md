@@ -23,6 +23,9 @@
 ## Responsabilidades del Scrum Master 
 <br>
 
+![scrum](https://github.com/CodeSystem2022/InfinityCode-4to-Semestre/assets/103860123/b0f66081-72c2-4df2-97f8-63611419deaa)
+
+
 :lock_with_ink_pen: Crear proyecto semanal<br>
 :lock_with_ink_pen: Crear milestone semanal<br>
 :lock_with_ink_pen: Crear issues correspondientes, asignar responsable, agregar label y milestone<br>
@@ -37,6 +40,9 @@
 ## 🗓️ Organización por Sprint 4to Semestre
 <br>
 
+![sprint](https://github.com/CodeSystem2022/InfinityCode-4to-Semestre/assets/103860123/127c208f-1852-4cc6-860d-402f248d24ed)
+
+
 | **Sprint** | **Check**  |  **Scrum Asignado** 👨‍💻 |
 | ------------- | ------- | :-------------:|
 | Semana 1 | :heavy_check_mark:|*Sebastián García* |
@@ -45,3 +51,7 @@
 | Semana 4 | <ul><li>- [ ] </li>|*Sebastián García* |
 | Semana 5 | <ul><li>- [ ] </li> |*Federico Sosa* |
 | Semana 6 | <ul><li>- [ ] </li> |*Gabriela Manca* |
+| Semana 7 | <ul><li>- [ ] </li>|*Sebastián García* |
+| Semana 8 | <ul><li>- [ ] </li> |*Federico Sosa* |
+| Semana 9 | <ul><li>- [ ] </li> |*Gabriela Manca* |
+
