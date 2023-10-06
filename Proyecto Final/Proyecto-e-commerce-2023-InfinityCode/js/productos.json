@@ -40,16 +40,6 @@
         "precio": 139000
     },
     {
-        "id": "Autos-05",
-        "titulo": "Autos 05",
-        "imagen": "./img/Autos/05.jpg",
-        "categoria": {
-            "nombre": "Autos",
-            "id": "Autos"
-        },
-        "precio": 200000
-    },
-    {
         "id": "Utilitarios-01",
         "titulo": "Utilitarios 01",
         "imagen": "./img/Utilitarios/01.jpg",
