@@ -50,13 +50,13 @@ botonesCategorias.forEach(boton => {
         botonesCategorias.forEach(boton => boton.classList.remove("active"));
         e.currentTarget.classList.add("active");
 
-        if (e.currentTarget.id != "todos") {
+        if (e.currentTarget.id != "todos-los-productos") {
             const productoCategoria = productos.find(producto => producto.categoria.id === e.currentTarget.id);
             tituloPrincipal.innerText = productoCategoria.categoria.nombre;
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
         } else {
-            tituloPrincipal.innerText = "Todos los productos";
+            tituloPrincipal.innerText = "todos-los-productos";
             cargarProductos(productos);
         }
 
@@ -92,7 +92,7 @@ function agregarAlCarrito(e) {
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "linear-gradient(to right, #4b33a8, #785ce9)",
+          background: "#B95E4A",
           borderRadius: "2rem",
           textTransform: "uppercase",
           fontSize: ".75rem"

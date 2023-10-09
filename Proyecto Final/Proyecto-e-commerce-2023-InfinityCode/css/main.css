@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #c50101;
+    --clr-main: #960707;
     --clr-main-light: #313030;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
@@ -47,8 +47,10 @@ aside {
 }
 
 .logo {
+    color: transparent;
     font-weight: 400;
     font-size: 1.3rem;
+    
 }
 
 .menu {
@@ -393,3 +395,4 @@ main {
         grid-template-columns: 1fr;
     }
 }
+

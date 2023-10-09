@@ -1,65 +1,186 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Track Route</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo.jpg" alt="Bootstrap" width="250" height="60" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/crear.html">Crear cuenta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/carru01.jpg" class="d-block w-100" alt="imagen1" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/carru02.jpg" class="d-block w-100" alt="imagen2" />
+        </div>
+        <div class="carousel-item">
+          <img src="/img/carru03.jpg" class="d-block w-100" alt="imagen3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
 
     <div class="wrapper">
-        <header class="header-mobile">
-            <h1 class="logo">InfinityCode</h1>
-            <button class="open-menu" id="open-menu">
-                <i class="bi bi-list"></i>
-            </button>
+      <header class="header-mobile">
+        <h1 class="logo">InfinityCode</h1>
+        <button class="open-menu" id="open-menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </header>
+      <aside>
+        <button class="close-menu" id="close-menu">
+          <i class="bi bi-x"></i>
+        </button>
+        <header>
+          <h3 class="logo">Nuestra tienda online</h3>
         </header>
-        <aside>
-            <button class="close-menu" id="close-menu">
-                <i class="bi bi-x"></i>
-            </button>
-            <header>
-                <h1 class="logo">Track Route</h1>
-            </header>
-            <nav>
-                <ul class="menu">
-                    <li>
-                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
-                    </li>
-                    <li>
-                        <button id="Autos" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Autos</button>
-                    </li>
-                    <li>
-                        <button id="Utilitarios" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Utilitarios</button>
-                    </li>
-                    <li>
-                        <button id="4x4" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> 4x4</button>
-                    </li>
-                    <li>
-                        <a class="boton-menu boton-carrito" href="./carrito.html">
-                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <footer>
-                <p class="texto-footer">© 2022 InfinityCode</p>
-            </footer>
-        </aside>
-        <main>
-            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
-            <div id="contenedor-productos" class="contenedor-productos">
-                
-            </div>
-        </main>
+
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="todos" class="boton-menu boton-categoria active">
+                <i class="bi bi-hand-index-thumb-fill"></i> Todos los productos
+              </button>
+            </li>
+            <li>
+              <button id="Autos" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Autos
+              </button>
+            </li>
+            <li>
+              <button id="Utilitarios" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> Utilitarios
+              </button>
+            </li>
+            <li>
+              <button id="4x4" class="boton-menu boton-categoria">
+                <i class="bi bi-hand-index-thumb"></i> 4x4
+              </button>
+            </li>
+            <li>
+              <a class="boton-menu boton-carrito" href="./carrito.html">
+                <i class="bi bi-cart-fill"></i> Carrito
+                <span id="numerito" class="numerito">0</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <footer>
+          <p class="texto-footer">© 2023 InfinityCode</p>
+        </footer>
+      </aside>
+      <main>
+        <h2 class="titulo-principal" id="titulo-principal">
+          Todos los productos
+        </h2>
+        <div id="contenedor-productos" class="contenedor-productos"></div>
+      </main>
     </div>
-    
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
