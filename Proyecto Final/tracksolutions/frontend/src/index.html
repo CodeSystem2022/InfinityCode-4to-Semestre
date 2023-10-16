@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track Route</title>
+    <!-- Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/frontend/css/home.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/frontend/img/logo.png" alt="" width="180" height="60" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+            </ul>
+            <form class="container-fluid justify-content-start">
+              <button class="btn btn-outline-success me-2" type="button">
+                Ingresar
+              </button>
+              <button class="btn btn-outline-secondary" type="button">
+                Crear cuenta
+              </button>
+            </form>
+
+            <button class="button-checkout position-absolute" id="checkout" onclick="pay()">
+              Pagar
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                0
+              </span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/frontend/img/carru01.jpg" class="d-block w-100" alt="imagen1" />
+        </div>
+        <div class="carousel-item">
+          <img src="/frontend/img/carru02.jpg" class="d-block w-100" alt="imagen2" />
+        </div>
+        <div class="carousel-item">
+          <img src="/frontend/img/carru03.jpg" class="d-block w-100" alt="imagen3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+<!-- MAIN  -->
+    <div class="page-content" id="page-content">
+
+      <div class="product-container" id="product-container">
+        <img src="/frontend/img/01.jpg" class="card-img-top" alt="..." />
+        <h3>Autos 1</h3>
+        <h3>$380</h3>
+        <button class="button-add" onclick="add('01',380 )">Agregar</button>
+      </div>
+
+      <div class="product-container" id="product-container">
+        <img src="/frontend/img/02.jpg" class="card-img-top" alt="..." />
+        <h3>Autos 2</h3>
+        <h3>$300</h3>
+        <button class="button-add" onclick="add('02',300 )">Agregar</button>
+      </div>
+
+      <div class="product-container" id="product-container">
+        <img src="/frontend/img/03.jpg" class="card-img-top" alt="..." />
+        <h3>Autos 3</h3>
+        <h3>$400</h3>
+        <button class="button-add" onclick="add('03',400 )">Agregar</button>
+      </div>
+
+      <div class="product-container" id="product-container">
+        <img src="/frontend/img/04.jpg" class="card-img-top" alt="..." />
+        <h3>Autos 4</h3>
+        <h3>$410</h3>
+        <button class="button-add" onclick="add('04',410 )">Agregar</button>
+      </div>
+
+      <div class="product-container" id="product-container">
+        <img src="/frontend/img/05.jpg" class="card-img-top" alt="..." />
+        <h3>Autos 5</h3>
+        <h3>$360</h3>
+        <button class="button-add" onclick="add('05',360)">Agregar</button>
+      </div>
+
+      <div class="product-container" id="product-container">
+        <img src="/frontend/img/06.jpg" class="card-img-top" alt="..." />
+        <h3>Autos 6</h3>
+        <h3>$500</h3>
+        <button class="button-add" onclick="add('06',500 )">Agregar</button>
+      </div>
+    </div>
+
+  <!-- Scripts-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/frontend/src/scripts.js"></script>
+  </body>
+
+<!-- Footer -->
+</html>
