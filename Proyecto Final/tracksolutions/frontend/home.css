@@ -3,6 +3,7 @@ margin: 0px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
+
 button {
     font-size: 16px;
     text-align: center;
@@ -37,6 +38,7 @@ button {
 }
 
 .product-container {
+    border-radius: 28px;
     margin: 15px;
     padding: 2px 16px;
     position: relative;
@@ -71,5 +73,22 @@ button {
   
 .button-add:hover {
     background-color: #902d02; 
+    color: white;
+}
+
+.button-add.disabled {
+    background-color: white;
+    color: black;
+    border: 2px solid gray; 
+    transition-duration: 0.4s;
+    position: relative;
+    margin-top: 15px;
+    right: 15px;
+    margin-left: 15px;
+    bottom: 15px;
+}
+  
+.button-add.button-add.disabled:hover {
+    background-color: gray; 
     color: white;
 }
