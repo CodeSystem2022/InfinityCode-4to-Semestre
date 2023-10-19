@@ -1,1 +1,1 @@
-Proyecto de la tutora Virginia Castellano
+Proyecto de la tutora Virginia Castellano correspondiente a la semana 7
