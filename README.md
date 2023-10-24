@@ -47,8 +47,8 @@
 | ------------- | ------- | :-------------:|
 | Semana 1 | :heavy_check_mark:|*Sebastián García* |
 | Semana 2 | :heavy_check_mark:|*Federico Sosa* |
-| Semana 3 | <ul><li>- [ ] </li>|*Gabriela Manca* |
-| Semana 4 | <ul><li>- [ ] </li>|*Sebastián García* |
+| Semana 3 | :heavy_check_mark:|*Gabriela Manca* |
+| Semana 4 | :heavy_check_mark:|*Sebastián García* |
 | Semana 5 | <ul><li>- [ ] </li> |*Federico Sosa* |
 | Semana 6 | <ul><li>- [ ] </li> |*Gabriela Manca* |
 | Semana 7 | <ul><li>- [ ] </li>|*Sebastián García* |
