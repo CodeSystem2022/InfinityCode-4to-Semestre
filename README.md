@@ -54,4 +54,8 @@
 | Semana 7 | <ul><li>- [ ] </li>|*Sebastián García* |
 | Semana 8 | <ul><li>- [ ] </li> |*Federico Sosa* |
 | Semana 9 | <ul><li>- [ ] </li> |*Gabriela Manca* |
+| Semana 10 | <ul><li>- [ ] </li>|*Sebastián García* |
+| Semana 11 | <ul><li>- [ ] </li> |*Federico Sosa* |
+| Semana 12 | <ul><li>- [ ] </li> |*Gabriela Manca* |
+
 
