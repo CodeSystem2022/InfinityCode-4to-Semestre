@@ -1,1 +1,1 @@
-En esta carpeta incluiremos los proyectos propuestos por los tutores. 
+En esta carpeta incluiremos los proyectos compartidos por los tutores. 
