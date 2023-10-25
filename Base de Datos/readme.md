@@ -21,9 +21,9 @@ my-first-sass-Project<br>
 ---- main.css (archivos de salida)<br>
 -- scss<br>
 ---- main.scss (archivos de entrada)<br>
--- complementos
----- img
----- svg
+-- complementos<br<
+---- img<br>
+---- svg<br>
 
 ## PARTICIPANTES
 
