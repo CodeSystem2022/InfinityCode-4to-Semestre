@@ -57,13 +57,13 @@ Puedes acceder a más información en: <br>
 | Semana 2 | :heavy_check_mark:|*Federico Sosa* |
 | Semana 3 | :heavy_check_mark:|*Gabriela Manca* |
 | Semana 4 | :heavy_check_mark:|*Sebastián García* |
-| Semana 5 | <ul><li>- [ ] </li> |*Federico Sosa* |
+| Semana 5 | :heavy_check_mark: |*Federico Sosa* |
 | Semana 6 | :heavy_check_mark: |*Gabriela Manca* |
-| Semana 7 | <ul><li>- [ ] </li>|*Sebastián García* |
-| Semana 8 | <ul><li>- [ ] </li> |*Federico Sosa* |
-| Semana 9 | <ul><li>- [ ] </li> |*Gabriela Manca* |
-| Semana 10 | <ul><li>- [ ] </li>|*Sebastián García* |
-| Semana 11 | <ul><li>- [ ] </li> |*Federico Sosa* |
+| Semana 7 | :heavy_check_mark: |*Sebastián García* |
+| Semana 8 | :heavy_check_mark: |*Federico Sosa* |
+| Semana 9 | :heavy_check_mark: |*Gabriela Manca* |
+| Semana 10 | :heavy_check_mark:|*Sebastián García* |
+| Semana 11 | :heavy_check_mark: |*Federico Sosa* |
 | Semana 12 | <ul><li>- [ ] </li> |*Gabriela Manca* |
 
 
