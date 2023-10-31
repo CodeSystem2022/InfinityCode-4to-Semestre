@@ -1,0 +1,16 @@
+/* Estilo para el contenedor envolvente */
+.mapa-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical en el contenedor envolvente */
+    height: 95vh; 
+}
+
+/* Estilo para el contenedor del mapa */
+.mapa {
+    width: 100%;
+    height: 400px;
+}
