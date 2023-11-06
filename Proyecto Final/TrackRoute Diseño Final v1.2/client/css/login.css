@@ -30,18 +30,6 @@
     border-top-right-radius: 0;
 }
 
-#logreg-forms .social-login{
-    width:390px;
-    margin:0 auto;
-    margin-bottom: 14px;
-}
-#logreg-forms .social-btn{
-    font-weight: 100;
-    color:white;
-    width:190px;
-    font-size: 0.9rem;
-}
-
 #logreg-forms a{
     display: block;
     padding-top:10px;
@@ -56,53 +44,7 @@
 
 #logreg-forms button[type="submit"]{ margin-top:10px;}
 
-#logreg-forms .facebook-btn{  background-color:#3C589C; }
-
-#logreg-forms .google-btn{ background-color: #DF4B3B; }
-
 #logreg-forms .form-reset, #logreg-forms .form-signup{ display: none;}
-
-#logreg-forms .form-signup .social-btn{ width:210px; }
 
 #logreg-forms .form-signup input { margin-bottom: 2px; }
 
-.form-signup .social-login{
-    width:210px !important;
-    margin: 0 auto;
-}
-
-/* Mobile */
-
-@media screen and (max-width:500px){
-    #logreg-forms{
-        width:300px;
-    }
-    
-    #logreg-forms  .social-login{
-        width:200px;
-        margin:0 auto;
-        margin-bottom: 10px;
-    }
-    #logreg-forms  .social-btn{
-        font-size: 1.3rem;
-        font-weight: 100;
-        color:white;
-        width:200px;
-        height: 56px;
-        
-    }
-    #logreg-forms .social-btn:nth-child(1){
-        margin-bottom: 5px;
-    }
-    #logreg-forms .social-btn span{
-        display: none;
-    }
-    #logreg-forms  .facebook-btn:after{
-        content:'Facebook';
-    }
-  
-    #logreg-forms  .google-btn:after{
-        content:'Google+';
-    }
-    
-}
