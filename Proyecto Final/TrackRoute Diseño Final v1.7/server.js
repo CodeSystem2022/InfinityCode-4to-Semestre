@@ -84,15 +84,15 @@ app.post("/users/register", async (req, res) => {
     let errors = [];
 
     if (!name || !email || !password || !password2) {
-        errors.push({ message: "Please enter all fields" });
+        errors.push({ message: "Todos los campos son obligatorios" });
     }
 
     if (password.length < 6) {
-        errors.push({ message: "Password should be at least 6 characters" });
+        errors.push({ message: "La contraseña debe tener 6 caracteres mínimo" });
     }
 
     if (password != password2) {
-        errors.push({ message: "Passwords do not match" });
+        errors.push({ message: "La contraseña no es igual" });
     }
 
     if (errors.length > 0) {
@@ -109,7 +109,7 @@ app.post("/users/register", async (req, res) => {
                 console.log(results.rows);
 
                 if (results.rows.length > 0) {
-                    errors.push({ message: "Email already registered" });
+                    errors.push({ message: "Este correo ya existe" });
                     res.render('register', { errors });
                 } else {
                     pool.query(
@@ -120,7 +120,7 @@ app.post("/users/register", async (req, res) => {
                                 throw err;
                             }
                             console.log(results.rows);
-                            req.flash("success_msg", "You are now registered. Please log in");
+                            req.flash("success_msg", "Ya estás registrado. Por favor ingresa a tu cuenta");
                             res.redirect("/users/login");
                         }
                     )
