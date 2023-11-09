@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+  <header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <div class="text-end">
+          <a href="/users/index" class="btn btn-danger">Nuestros productos</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="vh-100">
+    <div class="container-fluid h-custom">
+      <div class="row d-flex h-300">
+        <div class="col-md-9 col-lg-6 col-xl-7">
+          <img src="https://img.freepik.com/fotos-premium/neumaticos-coche-fondo-blanco_983424-8794.jpg?w=826" class="img-fluid" alt="">
+        </div>
+          
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <h2> Iniciar sesión</h2>
+          <form action="/users/login" method="POST">
+
+            <ul>
+              <% if (typeof errors != 'undefined') { %> <% errors.forEach(error => { %>
+              <li><%= error.message %></li>
+              <% }) %> <% } %>
+            </ul>
+        
+            <ul>
+              <% if(messages.success_msg) { %>
+              <li><%= messages.success_msg %></li>
+              <% } %>
+            </ul>
+        
+            <ul>
+              <% if (messages.error) { %>
+              <li><%= messages.error %></li>
+              <% } %>
+            </ul>
+            <div class="divider d-flex align-items-center my-4">
+              <p class="text-center fw-bold mx-3 mb-0">Tu experiencia es nuestra prioridad</p>
+            </div>
+  
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input 
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+              class="form-control form-control-lg"
+              />
+            </div>
+  
+            <!-- Password input -->
+            <div class="form-outline mb-3">
+              <input 
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Contraseña"
+              required
+              id="form3Example4" 
+              class="form-control form-control-lg"
+              />
+            </div>
+  
+  
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="submit" class="btn btn-dark btn-lg"
+                style="padding-left: 2.5rem; padding-right: 2.5rem;">Ingresar</button>
+              <p class="small fw-bold mt-2 pt-1 mb-0">No tienes una cuenta? <a href="/users/register"
+                  class="link-danger">Crear usuario</a></p>
+            </div>
+  
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-dark">
+      <div class="text-white mb-3 mb-md-0">
+        Todos Los Derechos Reservados © 2023 InfinityCode Soft.
+      </div>
+
+    </footer>
+    
+  </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
