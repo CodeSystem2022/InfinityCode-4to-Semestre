@@ -96,7 +96,7 @@ function actualizarTotal(){
 }
 
 
-const mercadopago = new MercadoPago("APP_USR-e45ee6d6-45a3-4d80-b8ec-0e99bd26435d", {
+const mercadopago = new MercadoPago("", {
   locale: "es-AR", // Los mas comunes son: 'pt-BR', 'es-AR' y 'en-US'
 });
 
