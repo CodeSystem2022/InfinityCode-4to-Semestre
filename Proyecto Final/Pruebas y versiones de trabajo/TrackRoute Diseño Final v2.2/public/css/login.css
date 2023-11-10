@@ -1,0 +1,24 @@
+.register{  
+    position: relative;
+    min-height: 100vh;
+}
+.registro{  
+    position: relative;
+    min-height: 100vh;
+}
+.anclar{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom:0;  
+}
+.fondoLogin{
+    background-image: url("/img/body/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondoRegistro{
+    background-image: url("/img/body/register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
