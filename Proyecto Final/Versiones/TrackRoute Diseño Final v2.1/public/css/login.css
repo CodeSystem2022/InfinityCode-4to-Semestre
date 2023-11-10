@@ -1,0 +1,29 @@
+.register{  
+    position: relative;
+    min-height: 100vh;
+}
+.registro{  
+    position: relative;
+    min-height: 100vh;
+}
+.anclar{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom:0;  
+}
+.fondoLogin{
+    background-image: url("/img/body/pexels-erik-mclean-4928607.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+   
+}
+.fondoRegistro{
+    background-image: url("/img/body/register.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    
+}
+

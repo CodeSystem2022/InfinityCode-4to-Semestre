@@ -1,0 +1,15 @@
+.register{  
+    position: relative;
+    min-height: 100vh;
+}
+.anclar{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom:0;  
+}
+.fondo{
+    background-image: url("/img/body/fondoLogin.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
