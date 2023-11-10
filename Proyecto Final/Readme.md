@@ -42,11 +42,14 @@ TODO LO QUE ENCONTRARÁS EN NUESTRO SITIO:<br>
 ![Screen Shot 2023-11-10 at 02 31 35](https://github.com/CodeSystem2022/InfinityCode-4to-Semestre/assets/103860123/fe133b2d-3de9-4b6f-b760-aa26d8c1130f)
 
 - Datos de contacto y ubicación de la empresa.
+- Solicitar asesoramiento de un vendedor a través de WhatsApp.
+
+
+![Screen Shot 2023-11-10 at 13 00 22](https://github.com/CodeSystem2022/InfinityCode-4to-Semestre/assets/103860123/f748b902-6834-475b-b71d-4fd476232296)
+
 - Redes sociales.
 
 ![Screen Shot 2023-11-10 at 02 30 41](https://github.com/CodeSystem2022/InfinityCode-4to-Semestre/assets/103860123/e62c8928-e704-429a-bdb7-1ab24c817990)
-
-- Solicitar asesoramiento de un vendedor a través de WhatsApp.
 
 # El proyecto 
 Utilizamos las siguientes tecnologias y herramientas:<br>
