@@ -45,7 +45,7 @@ TODO LO QUE ENCONTRARÁS EN NUESTRO SITIO:<br>
 - Solicitar asesoramiento de un vendedor a través de WhatsApp.
 
 
-![Screen Shot 2023-11-10 at 13 00 22](https://github.com/CodeSystem2022/InfinityCode-4to-Semestre/assets/103860123/f748b902-6834-475b-b71d-4fd476232296)
+![Screen Shot 2023-11-11 at 22 55 38](https://github.com/CodeSystem2022/InfinityCode-4to-Semestre/assets/103860123/fc7762d2-957b-4348-aaa5-d5358051595f)
 
 - Redes sociales.
 
