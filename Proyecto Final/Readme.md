@@ -113,5 +113,4 @@ Tecnicatura Universitaria en Programación - UTN San Rafael
 | `Gabriela Manca`      | :octocat:  https://github.com/gabbylinna   |
 | `Federico Sosa`       | :octocat:  https://github.com/FedeSosa0021 |
 
-# Agradecimientos
 
