@@ -11,6 +11,8 @@ En esta carpeta dejamos los trabajos realizados en la cátedra BASE DE DATOS.
 | Semana 7| 7 | 29 de agosto | Creación de archivos básicos: index.html, hoja de estilo en carperta css, archivo de input en carpeta scss |
 | Semana 8 | 8 | 6 de octubre | Añadir tanto a nuestra hoja de estilo como a nuestra hoja html, las clases, declaramos variables y utilizamos los selectores ( seguimos los pasos vistos en clase) |
 | Semana 10 | 9 | 20 de octubre | Agregar canbios trabajados en clase  |
+| Semana 11 | 11 | 03 de noviembre | Herencia, Mixin. Añadir los cambios realizados en la sección 1 y 2 en nuestras hojas html y
+hoja de estilo main.scss. |
 
 
 ## EJEMPLO DE ESTRUCTURA DEL PROYECTO DE SASS
