@@ -1,0 +1,204 @@
+$primary-color: rgb(90, 89, 28);
+$secondary-color: rgb(224, 124, 31);
+$terciary-color: rgb(226, 226, 154);
+$quaternion-color: orange;
+$primary-text-color: rgb(63, 38, 1);
+$font-stack: 'IBM Plex Sans', sans-serif;
+$paragraph-size: 1, 5em;
+
+
+@mixin flexCenter($direction,$content,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $align;
+}
+
+@mixin buttonStyle{
+    button {
+        background: none;
+        border-style: none;
+    }
+}
+
+
+body {
+    background-color: #{$primary-color};
+    margin: 0;
+    padding: 0;
+    font-family: $font-stack;
+
+}
+
+nav {
+    /*background-color: #{$primary-color};*/
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    color: $primary-text-color;
+    padding: 15px;
+
+    p {
+        font-size: 1.5;
+        padding-left: 30px;
+    }
+
+    .icons {
+        display: flex;
+        gap: 15px;
+        @include buttonStyle;
+    }
+}
+
+main {
+    background-color: $primary-color;
+}
+
+footer {
+    $background: rgb(255, 165, 0);
+    /*variable local del footer*/
+    $background: $quaternion-color;
+    background-color: $background;
+    width: 100%;
+    height: 250px;
+}
+
+article {
+    width: auto;
+    color: $primary-text-color;
+    @include flexCenter(row,space-between,center);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 70px;
+
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 25px;
+    }
+
+
+    h1 {
+        font-size: 3em;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    p {
+        font-size: $paragraph-size;
+    }
+
+    button {
+        width: 12vw;
+        padding: 20px;
+        background-color: $quaternion-color;
+        background: none;
+        border-style: none;
+        border-radius: 35px;
+        color: white font-size 1em;
+    }
+
+    img {
+        width: 25vw;
+        border-radius: 19px;
+    }
+
+    .image-section {
+        width: 50%;
+        background-color: rgb(119, 109, 64);
+        //img{
+        //    width: 100%;
+        //}
+    }
+
+
+}
+
+section {
+    width: auto;
+    height: auto;
+    background-color: rgb(214, 201, 176);
+    padding: 60px;
+
+    h2 {
+        color: $primary-text-color;
+        font-size: 2em;
+    }
+
+    .section1 {
+
+        h2 {
+            font-weight: 300;
+            padding-bottom: 60px;
+        }
+
+        .product-cart {
+            width: 12vw;
+            height: auto;
+            background-color: $secondary-color;
+            color: $primary-text-color;
+            padding: 20px;
+            border-radius: 8px;
+
+            img {
+                width: 200px;
+                height: 250px;
+                background-image: cover;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .cart-section1 {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 200px;
+        row-gap: 200px;
+
+        .product-card {
+            width: 14vw;
+            height: 45vh;
+            background-color: $secondary-color;
+            color: $primary-text-color;
+            padding: 20px;
+            border-radius: 8px;
+
+            .icons {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding-bottom: 12px;
+
+                svg {
+                    width: 28px;
+                    height: 28px;
+                    stroke: olive;
+                    stroke-width: yellow;
+                }
+            }
+        }
+    }
+
+    .section2 {
+        @extend .section1;
+
+        .product-cart {
+            background-color: $terciary-color;
+            color: rgb(37, 51, 12);
+        }        
+    }
+}
+
+@function multiply($a, $b) {
+    @return $a * $b
+}
+
+div {
+    margin: multiply(10, 7) * 1px;
+    height: 150px;
+    width: 150px;
+}
