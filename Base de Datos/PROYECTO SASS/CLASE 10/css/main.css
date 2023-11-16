@@ -1,0 +1,21 @@
+body {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(69, 53, 2);
+  width: 100%;
+  height: 100px;
+}
+
+main {
+  background-color: rgb(69, 53, 2);
+}
+
+footer {
+  background-color: rgb(31, 235, 211);
+  width: 100%;
+  height: 25px;
+}/*# sourceMappingURL=main.css.map */

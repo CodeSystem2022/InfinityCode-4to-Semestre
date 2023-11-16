@@ -1,0 +1,88 @@
+$primary-color: rgb(158, 156, 4);
+$secondary-color: rgb(25, 246, 5);
+$tertiary-color: rgb(241, 182, 21);
+$primary-tex-color: rgb(243, 247, 243);
+$font-stack: "Oswald", sans-serif;
+$paragraph-size: 1,5em;
+
+
+
+body {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  color:$primary-tex-color;
+  padding: 15px;
+  p {
+    font-size: 1.5;
+    padding-left: 30px;
+  }
+  .icons {
+    display: flex;
+    gap: 15px;
+    button {
+      width: 12vw;
+      padding: 20px;
+      background-color: $tertiary-color;
+      background: none;
+      border-style: none;
+    }
+  }
+}
+main {
+  background-color: $primary-color;
+}
+article{
+  width: auto;
+  color:$primary-tex-color;
+  display: flex;
+  justify-content: space-around;
+
+  .info-section{
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      gap: 25px;    
+  }
+  h1{
+      font-size: 3em;
+      padding: 0px;
+      margin: 0px;
+  }
+  p{
+      font-size: $paragraph-size;
+  }
+  button{
+      width: 12vw;
+      padding: 20px;
+      background-color: $tertiary-color;
+      background: none;
+      border-style: none;
+      border-radius: 35px;
+      color:white
+      font-size 1em;
+  }
+  img{
+      width:25vw;
+      border-radius: 19px;
+  }
+
+  .imagen-section{
+      width: 50%;
+      background-color: rgb(119, 109, 64);
+    
+  }
+}
+
+
+footer {
+  background-color: $tertiary-color;
+  width: 100%;
+  height: 25px;
+}
