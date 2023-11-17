@@ -1,13 +1,13 @@
 
 body {
-  background-color: rgb(90, 89, 28);
+  background-color: rgb(32, 95, 83);
   margin: 0;
   padding: 0;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
 nav {
-  /*background-color: rgb(90, 89, 28);*/
+  /*background-color: rgb(32, 95, 83);*/
   width: auto;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@ nav .icons button {
 }
 
 main {
-  background-color: rgb(90, 89, 28);
+  background-color: rgb(32, 95, 83);
 }
 
 footer {
@@ -73,13 +73,13 @@ article img {
 }
 article .image-section {
   width: 50%;
-  background-color: rgb(119, 109, 64);
+  background-color: rgb(105, 224, 31);
 }
 
 section {
   width: auto;
   height: auto;
-  background-color: rgb(214, 201, 176);
+  background-color: rgb(154, 226, 177);
   padding: 60px;
 }
 section h2 {

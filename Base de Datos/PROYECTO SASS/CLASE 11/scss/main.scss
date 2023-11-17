@@ -1,8 +1,8 @@
-$primary-color: rgb(90, 89, 28);
-$secondary-color: rgb(224, 124, 31);
-$terciary-color: rgb(226, 226, 154);
-$quaternion-color: orange;
-$primary-text-color: rgb(63, 38, 1);
+$primary-color: rgb(32, 95, 83);
+$secondary-color: rgb(105, 224, 31);
+$terciary-color: rgb(154, 226, 177);
+$quaternion-color: rgb(225, 255, 0);
+$primary-text-color: rgb(63, 5, 1);
 $font-stack: 'IBM Plex Sans', sans-serif;
 $paragraph-size: 1, 5em;
 
@@ -14,12 +14,6 @@ $paragraph-size: 1, 5em;
     align-items: $align;
 }
 
-@mixin buttonStyle{
-    button {
-        background: none;
-        border-style: none;
-    }
-}
 
 
 body {
@@ -46,7 +40,7 @@ nav {
     .icons {
         display: flex;
         gap: 15px;
-        @include buttonStyle;
+      
     }
 }
 
@@ -107,9 +101,7 @@ article {
     .image-section {
         width: 50%;
         background-color: rgb(119, 109, 64);
-        //img{
-        //    width: 100%;
-        //}
+    
     }
 
 
