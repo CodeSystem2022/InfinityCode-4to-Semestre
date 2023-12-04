@@ -64,6 +64,6 @@ Puedes acceder a más información en: <br>
 | Semana 9 | :heavy_check_mark: |*Gabriela Manca* |
 | Semana 10 | :heavy_check_mark:|*Sebastián García* |
 | Semana 11 | :heavy_check_mark: |*Federico Sosa* |
-| Semana 12 | <ul><li>- [ ] </li> |*Gabriela Manca* |
+| Semana 12 | :heavy_check_mark: |*Gabriela Manca* |
 
 
